@@ -24,10 +24,10 @@ config :logger, :console,
 
 # Configures Guardian
 config :guardian, Guardian,
-  issuer: "Sling",
+  issuer: "SlackClone",
   ttl: {30, :days},
   verify_issuer: true,
-  serializer: Sling.GuardianSerializer
+  serializer: SlackClone.GuardianSerializer
 
 # Import environment specific config. This must remain at the bottom
 # of this file so it overrides the configuration defined above.
