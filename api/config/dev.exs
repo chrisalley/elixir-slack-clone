@@ -29,3 +29,6 @@ config :slack_clone, SlackClone.Repo,
   database: "slack_clone_dev",
   hostname: "localhost",
   pool_size: 10
+
+config :guardian, Guardian,
+  secret_key: "Ea27S5Kk9XcdkV+irNPKZkiGHbUzNm5nycp1Hh7O2Yjx66kdM3+Dm18UmVY2W0di"
